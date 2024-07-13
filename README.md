@@ -17,11 +17,11 @@ This project aims to digitize handwritten content, transforming it into machine-
 -Trained word detection model in tensorflow using CNN and LSTM with CTC loss for 50 epochs.  
 -Word Segmentation is done through open-cv and clustering algorithms.  
 ## Known Issue
--Word detection model is not perfect.
--Word Segmentation requires manually changing parameters like kernel size, theta, sigma and does not provide accurate segmentation.
+1) Word detection model is not perfect.  
+2) Word Segmentation requires manually changing parameters like kernel size, theta, sigma and does not provide accurate segmentation.  
 ## High Level Next Steps
--Train better word detection model using other deep learning methods like transfomers.
--Word Segmentation need to be done through deep learning model can use tools like layout parser.
+1) Train better word detection model using other deep learning methods like transfomers.  
+1) Word Segmentation need to be done through deep learning model can use tools like layout parser.  
 # Usage
 ## Installation
 To begin this project, use the included `Makefile`
