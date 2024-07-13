@@ -1,16 +1,27 @@
 # Handwritten-Document-Conversion
 
 ## Introduction
+This project aims to digitize handwritten content, transforming it into machine-readable text. By using advanced machine learning and computer vision techniques, the goal is to develop a system that can accurately recognize and convert handwritten documents. This will enhance accessibility and enable efficient data processing, facilitating the transition from physical to digital records. The project aims to ensure that handwritten notes, forms, and documents can be easily stored, searched, and utilized in various digital applications.
 ## Goals
+1. Develop a system that accurately recognizes and converts various styles of handwritten content into digital text, ensuring high precision and reliability.
+2. Create a user-friendly interface to use the system
 ## Contributors
+- Nimesh Gopal Pradhan
+- Nikin Baidar
+- Paras Pujara
 ## Project Architecture
 
 
 # Status
+-Establishing base line model which can detect and recognize handwritten letters on a paragraph level.
+-Trained word detection model in tensorflow using CNN and LSTM with CTC loss for 50 epochs.
+-Word Segmentation is done through open-cv and clustering algorithms.
 ## Known Issue
+-Word detection model is not perfect.
+-Word Segmentation requires manually changing parameters like kernel size, theta, sigma and does not provide accurate segmentation.
 ## High Level Next Steps
-
-
+-Train better word detection model using other deep learning methods like transfomers.
+-Word Segmentation need to be done through deep learning model can use tools like layout parser.
 # Usage
 ## Installation
 To begin this project, use the included `Makefile`
