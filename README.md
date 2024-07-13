@@ -13,9 +13,9 @@ This project aims to digitize handwritten content, transforming it into machine-
 
 
 # Status
--Establishing base line model which can detect and recognize handwritten letters on a paragraph level.
--Trained word detection model in tensorflow using CNN and LSTM with CTC loss for 50 epochs.
--Word Segmentation is done through open-cv and clustering algorithms.
+-Establishing base line model which can detect and recognize handwritten letters on a paragraph level.  
+-Trained word detection model in tensorflow using CNN and LSTM with CTC loss for 50 epochs.  
+-Word Segmentation is done through open-cv and clustering algorithms.  
 ## Known Issue
 -Word detection model is not perfect.
 -Word Segmentation requires manually changing parameters like kernel size, theta, sigma and does not provide accurate segmentation.
