@@ -13,15 +13,14 @@ This project aims to digitize handwritten content, transforming it into machine-
 
 
 # Status
-- Establishing base line model which can detect and recognize handwritten letters on a paragraph level.  
 - Trained word detection model in tensorflow using CNN and LSTM with CTC loss for 50 epochs.  
-- Word Segmentation is done through open-cv and clustering algorithms.  
+- Word Segmentation is done through YOLOv10 nano model trained to recognize words.
 ## Known Issue
 1) Word detection model is not perfect.  
-2) Word Segmentation requires manually changing parameters like kernel size, theta, sigma and does not provide accurate segmentation.  
+2) Does not work properly on complex handwriting or complex layout of texts.
 ## High Level Next Steps
 1) Train better word detection model using other deep learning methods like transfomers.  
-1) Word Segmentation need to be done through deep learning model can use tools like layout parser.  
+2) Currently work on unstructured text but need to trained layout parser to work on structured texts like forms, tabular data and return result in json format.
 # Usage
 ## Installation
 To begin this project, use the included `Makefile`
