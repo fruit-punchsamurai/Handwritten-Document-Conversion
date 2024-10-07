@@ -8,7 +8,6 @@ This project aims to digitize handwritten content, transforming it into machine-
 ## Contributors
 - Nimesh Gopal Pradhan
 - Nikin Baidar
-- Paras Pujara
 ## Project Architecture
 
 
