@@ -9,7 +9,7 @@ This project aims to digitize handwritten content, transforming it into machine-
 - Nimesh Gopal Pradhan
 - Nikin Baidar
 ## Project Architecture
-![Architecture of Word Recognition Model](docs/Word Recognition model architecture.png)
+![Architecture of Word Recognition Model](docs/Word_Recognition_Model_Architecture.png)
 
 
 # Status
